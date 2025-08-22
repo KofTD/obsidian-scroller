@@ -1,0 +1,13 @@
+{
+  "name": "obsidian-scroller",
+  "version": "1.0.0",
+  "description": "Adds typewriter mode, unfocused text dimming and commands to quickly scroll to the top or bottom of note",
+  "main": "main.js",
+  "scripts": {
+    "build": "node esbuild.config.mjs production",
+    "dev": "node esbuild.config.mjs development"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.0"
+  }
+}
